@@ -10,7 +10,7 @@ require_once 'reports.php'; // Reports functions
 require_once 'branch.php'; // Branch functions
 
 // Enable CORS for all domains (change to your frontend URL for production)
-header("Access-Control-Allow-Origin: http://localhost:5173"); // Update the domain for production
+header("Access-Control-Allow-Origin: *"); // Update the domain for production
 header("Access-Control-Allow-Methods: GET,PATCH, POST, PUT, DELETE, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
 header('Content-Type: application/json');
